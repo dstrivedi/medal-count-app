@@ -1,5 +1,5 @@
 import './App.css';
-import MedalCountTable from './components/MedalTable/MedalCountTable';
+import MedalCountTable from './components/MedalCountTable/MedalCountTable';
 
 function App() {
   return (

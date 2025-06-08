@@ -1,0 +1,80 @@
+.medal-count-table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+.medal-count-table-header-row th {
+    border-bottom: 2px solid #ccc;
+}
+
+.total-cell-header {
+    font-weight: bold;
+}
+
+.medal-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.gold {
+    background-color: gold;
+}
+
+.silver {
+    background-color: silver;
+}
+
+.bronze {
+    background-color: brown;
+}
+
+.medal-count-table-row-body td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #eee;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+.country-cell {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    line-height: 1.2;
+}
+
+.country-name,
+.total-cell {
+    font-weight: bold;
+}
+
+.country-index {
+    margin-right: 8px;
+}
+
+.flag {
+    width: 28px;
+    height: 20px;
+    background-image: url("/public/flags.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background-size: auto;
+    margin-right: 8px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+.flag-aut { background-position: 0 -0px; }
+.flag-can { background-position: 0 -20px; }
+.flag-chn { background-position: 0 -40px; }
+.flag-fra { background-position: 0 -60px; }
+.flag-ger { background-position: 0 -80px; }
+.flag-ita { background-position: 0 -100px; }
+.flag-nor { background-position: 0 -120px; }
+.flag-rus { background-position: 0 -140px; }
+.flag-sui { background-position: 0 -160px; }
+.flag-swe { background-position: 0 -180px; }
+.flag-usa { background-position: 0 -200px; }
